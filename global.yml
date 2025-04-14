@@ -1,0 +1,8 @@
+- hosts: all
+  become: true
+  tasks:
+    - apt:
+        update_cache: no
+        name:
+          - cmatrix
+        state: present
