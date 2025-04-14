@@ -1,1 +1,2 @@
-# init
+# Repository for initializing machines
+
