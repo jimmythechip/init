@@ -1,7 +1,7 @@
 - hosts: localhost
   become: true
   tasks:
-    - apt:
+    - package:
         update_cache: no
         name:
           - cmatrix
