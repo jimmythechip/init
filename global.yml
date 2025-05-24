@@ -1,8 +1,8 @@
 - hosts: localhost
   become: true
   tasks:
-    - package:
-        update_cache: no
+    - ansible.builtin.package:
+        #update_cache: no
         name:
           - cmatrix
         state: present
